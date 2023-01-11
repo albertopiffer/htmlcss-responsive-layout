@@ -110,6 +110,16 @@ a {
 }
 
 
+/*FONTS***************************************************************************************************/
+
+h1 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
 /*HEADER***************************************************************************************************/
 
 .main-header {
@@ -342,7 +352,6 @@ a {
 
 .p-head h1 {
     color: var(--purple);
-    font-size: 40px;
 
     margin-bottom: 40px;
 }
@@ -389,4 +398,57 @@ a {
 
     color: white;
     font-size: 18px;
+}
+
+/*BENEFITS***************************************************************************************************/
+
+.benefits {
+    background-color: var(--purple);
+
+    padding: 70px 0;
+}
+
+.benefits .b-head {
+    text-align: center;
+    margin-bottom: 70px;
+
+    color: white;
+
+}
+
+.benefits .row {
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    flex-basis: 30%;
+
+    background-color: white;
+
+    padding: 50px 45px 30px 30px;
+    border-radius: 50px;
+}
+
+.card-benefits h1 {
+    color: var(--purple);
+    font-size: 60px;
+}
+
+.card-benefits h4 {
+    color: var(--purple);
+}
+
+.card-benefits p {
+    font-size: 14px;
+}
+
+.card-benefits .button {
+    background-color: var(--purple);
+    color: white;
 }
