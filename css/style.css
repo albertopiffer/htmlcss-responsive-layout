@@ -302,7 +302,7 @@ h4 {
 }
 
 .planning .col__title{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .planning .col{
@@ -312,7 +312,7 @@ h4 {
 /*MEDIAQUERY-PLANNING***************************************************************************************************/
 
 @media screen and (max-width:991px){
-    .section-planning .col{
+    .planning .col{
         flex-basis: 100%;
     }
 
@@ -377,18 +377,15 @@ h4 {
     border-radius: 50px;
 }
 
-.cp-img {
-    flex-basis: 20%;
-}
-
 .card-partner img {
     border-radius: 999px;
     aspect-ratio: 1/1;
     object-fit: cover;
+
+    width: 200px;
 }
 
 .cp-txt {
-    flex-basis: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -398,6 +395,23 @@ h4 {
 
     color: white;
     font-size: 18px;
+}
+
+/*MQ-PARTNER***************************************************************************************************/
+
+@media only screen and (max-width: 575px) {
+    .card-partner {
+        flex-direction: column;
+        align-items: center;
+
+        padding: 30px;
+
+        text-align: center;
+    }
+
+    .cp-txt {
+        margin: 0;
+    }
 }
 
 /*BENEFITS***************************************************************************************************/
