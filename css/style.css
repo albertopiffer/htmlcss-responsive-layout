@@ -432,7 +432,7 @@ h4 {
     background-color: white;
 
     padding: 50px 45px 30px 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .card-benefits h1 {
@@ -451,4 +451,69 @@ h4 {
 .card-benefits .button {
     background-color: var(--purple);
     color: white;
+}
+
+/*ABOUT***************************************************************************************************/
+
+.about {
+    padding: 100px 0 150px;
+}
+
+.about .row {
+    justify-content: space-between;
+}
+
+.about .about-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+    flex-basis: 75%;
+}
+
+.about-txt h1 {
+    font-size: 70px;
+    color: var(--purple);
+}
+
+.about-txt p {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.about .about-img {
+
+    max-width: 250px;
+
+    position: relative;
+}
+
+.about-img img {
+    border-radius: 999px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    
+    width: 250px;
+}
+
+.about-img span {
+    color: var(--purple);
+    font-size: 60px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about-img h4 {
+    font-size: 30px;
+    color: var(--purple);
+}
+
+.about-img .button {
+    background-color: var(--purple);
+    color: white;
+    height: 34px;
+
+    font-size: 14px;
 }
