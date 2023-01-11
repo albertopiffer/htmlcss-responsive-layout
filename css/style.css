@@ -441,7 +441,7 @@ h4 {
     justify-content: space-between;
     gap: 20px;
 
-    flex-basis: 30%;
+    flex-basis: calc(100%/3 - 60px/3);
 
     background-color: white;
 
@@ -465,6 +465,24 @@ h4 {
 .card-benefits .button {
     background-color: var(--purple);
     color: white;
+}
+
+/*MQ-BENEFITS***************************************************************************************************/
+
+@media screen and (max-width:991px){
+    .card-benefits {
+        flex-basis: calc(100%/2 - 60px/2);
+    }
+}
+
+@media screen and (max-width:575px){
+    .card-benefits {
+        flex-basis: 100%;
+    }
+
+    .card-benefits h1 {
+        font-size: 40px;
+    }
 }
 
 /*ABOUT***************************************************************************************************/
