@@ -110,7 +110,7 @@ a {
 }
 
 
-/* HEADER */
+/*HEADER***************************************************************************************************/
 
 .main-header {
     background-color: var(--blue);
@@ -136,7 +136,7 @@ a {
     display: none;
 }
 
-/* MEDIAQUERY HEADER */
+/*MEDIAQUERY-HEADER***************************************************************************************************/
 
 @media only screen and (max-width: 991px) {
     .hamburger {
@@ -148,7 +148,7 @@ a {
     }
 }
 
-/* HERO */
+/*HERO***************************************************************************************************/
 
 .hero{
     padding: 52px 0px;
@@ -164,7 +164,7 @@ a {
     font-size: 18px;
 }
 
-.card {
+.hero .card {
     background-color: var(--lightblue);
     border-radius: 20px;
     margin: 0 12px;
@@ -215,7 +215,7 @@ a {
 }
 
 
-/* MEDIAUERY HERO */
+/*MEDIAQUERY-HERO***************************************************************************************************/
 
 @media only screen and (max-width: 991px) {
 
@@ -243,22 +243,22 @@ a {
 }
 
 
-/* sezione planning */
+/*PLANNING***************************************************************************************************/
 
-.section-planning{
+.planning{
     background-color: var(--purple);
     padding-top:110px ;
     padding-bottom:55px ;
 }
 
 
-.section-planning .col{
+.planning .col{
     flex-basis: 0;
     flex-grow: 1;
     padding: 0;
 }
 
-.section-planning .row{
+.planning .row{
     gap: 60px;
 }
 
@@ -283,23 +283,23 @@ a {
     width: 70%;
 }
 
-.section-planning .col-card{
+.planning .col-card{
     align-self: flex-end;
 }
 
-.section-planning .col__img{
+.planning .col__img{
     margin-bottom: 100px;
 }
 
-.section-planning .col__title{
+.planning .col__title{
     margin-bottom: 50px;
 }
 
-.section-planning .col{
+.planning .col{
     color: white;
 }
 
-/* MEDIAQUERY SEZION-PLANNING */
+/*MEDIAQUERY-PLANNING***************************************************************************************************/
 
 @media screen and (max-width:991px){
     .section-planning .col{
@@ -322,10 +322,71 @@ a {
     }
 }
 
+/*PARTNER***************************************************************************************************/
 
-/* sezione partner */
+.partner {
+    padding-top:70px ;
+    padding-bottom:110px ;
+}
 
-.section-partner{
-    padding-top:110px ;
-    padding-bottom:55px ;
+.p-head {
+    text-align: center;
+}
+
+.p-head h3 {
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 40px;
+}
+
+.p-head h1 {
+    color: var(--purple);
+    font-size: 40px;
+
+    margin-bottom: 40px;
+}
+
+.p-head p {
+    font-size: 18px;
+
+    margin-bottom: 50px;
+}
+
+.partner .row {
+    gap: 32px;
+}
+
+.card-partner {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--purple);
+
+    padding: 32px 70px 48px 16px;
+
+    border-radius: 50px;
+}
+
+.cp-img {
+    flex-basis: 20%;
+}
+
+.card-partner img {
+    border-radius: 999px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.cp-txt {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+    margin-left: 65px;
+
+    color: white;
+    font-size: 18px;
 }
